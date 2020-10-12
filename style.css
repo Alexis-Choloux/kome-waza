@@ -1,0 +1,140 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #003E52;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 15px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color:#003E52;
+}
+
+#description {
+    display: flex;
+    justify-content: center;
+}
+
+#description img {
+    height: 800px;
+}
+
+#titleDescription {
+    /* display: flex; */
+    /* flex-direction: column; */
+    max-width: 500px;
+    align-items: flex-end;
+    margin-top: 50px;
+    text-align: right;
+}
+
+#titleDescription h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#phonetic {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#textDescription {
+    font-size: 18px;
+}
+
+#galery {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#galery img {
+    width: 100%;
+}
+
+#phonetic {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#poke {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    background-image: url(images/fond-1\ modif.png);
+    background-repeat: no-repeat;
+    background-position: 92% 100%
+}
+
+#poke h1 {
+    font-size: 40px;
+    width: 700px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: #003E52 2px solid;
+}
+
+#poke h2 {
+    text-align: left;
+    font-size: 20px;
+    width: 700px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+#poke p {
+    text-align: left;
+    max-width: 700px;
+    margin-left: 100px;
+}
+
+#map {
+    display: flex;
+    justify-content: center;
+}
+
+#map iframe {
+    margin-top: 30px;
+    width: 1700px;
+    height: 300;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    margin-top: 10px;
+    background-color: #003f51;
+    color: white;
+}
+
+footer h3 {
+    font-size:40px;
+    margin-bottom: 35px;
+    margin-top: 0px;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 0px;
+}
